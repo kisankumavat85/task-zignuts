@@ -1,0 +1,28 @@
+.invitations-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.invitations {
+  width: 600px;
+}
+
+.invitation-card {
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sender-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.status {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: #0c8861;
+}
