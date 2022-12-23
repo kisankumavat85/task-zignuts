@@ -33,7 +33,7 @@ const Home = () => {
       timer = setTimeout(() => {
         const newInvitesCopy = [...newInvites];
         const popedInvite = newInvitesCopy.pop();
-        setInvites((ps) => [...ps, popedInvite]);
+        setInvites((ps) => [popedInvite, ...ps]);
         setNewInvites(newInvitesCopy);
       }, 5000);
     }
